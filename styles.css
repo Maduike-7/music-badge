@@ -1,0 +1,70 @@
+body {
+    background-color: #000000;
+}
+
+.music-container {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 5px 6px;
+    width: 15%;
+    justify-content: center;
+}
+
+.art {
+    height: 50px;
+    width: 150px;
+    position: relative;
+}
+
+.images {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.text {
+    width: 320px;
+    margin-left: 30px;
+}
+.title {
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.artist {
+    color: gray;
+}
+
+.overlay-box {
+    position: absolute;
+    inset: 0 0 0 0;
+    border-radius: 8px;
+    background-color: #00000055;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar {
+    width: 6px;
+    height: 15px;
+    background-color: white;
+    margin: 4px;
+    border-radius: 6px;
+    animation: bar 1400ms infinite;
+}
+
+.bar:nth-child(even) {
+  animation-delay: 700ms;
+}
+
+
+/* 
+.music-container {
+ position: absolute;
+ top: 45%;
+ right: 45%;
+} */
